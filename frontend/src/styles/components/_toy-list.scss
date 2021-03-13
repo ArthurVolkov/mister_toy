@@ -1,0 +1,32 @@
+
+
+.list-container {
+    margin-bottom: 10px;
+}
+
+.toy-list {
+    // width: 100%;
+    // flex-wrap: wrap;
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    .toy-item-container {
+
+        background-color: $clr5;
+        // margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+}
+
+
+// .toy-item-container p {
+//     margin: 10px;
+// }
+
+// .list-container {
+//     /* background-color: darkcyan; */
+//     width: 100%;
+// }

@@ -1,0 +1,10 @@
+
+    
+.toy-filter {
+    display: flex;
+    color: $clr1;
+    font-weight: 600;
+    > * {
+        margin: 0 5px;
+    }
+}

@@ -1,0 +1,40 @@
+
+
+.toy-details {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: $clr5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: $clr1;
+
+    .details-btn-container {
+        width: 220px;
+        height: 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        * {
+            font-size: 1em;
+            width: 100px;
+            height: 100%;
+        }
+    }
+
+    .review-form {
+        margin-top: 10px;
+    }
+
+    .review-container {
+        background-color: $clr4;
+        padding: 10px;
+        border-radius: 5px;
+        width: 80%;
+        height: 120px;
+        overflow: auto;
+        margin-bottom: 10px;
+    }
+}

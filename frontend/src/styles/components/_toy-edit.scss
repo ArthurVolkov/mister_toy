@@ -1,0 +1,29 @@
+
+
+.toy-edit {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: $clr5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: $clr1;
+
+    form {
+        // width: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .el-input {
+        width: 100%;
+    }
+}

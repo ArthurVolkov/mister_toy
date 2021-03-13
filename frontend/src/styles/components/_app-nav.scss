@@ -1,0 +1,21 @@
+
+.nav {
+    height: 10vh;
+    background-color: $clr1;
+    .nav-container {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+            font-weight: bold;
+            color: $clr6;
+            margin: 0 10px;
+        }
+
+        a.router-link-exact-active {
+            color: $clr2
+        }
+    }
+}
